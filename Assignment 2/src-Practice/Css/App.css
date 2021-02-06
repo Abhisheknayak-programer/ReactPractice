@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.App{
+    background-color: #eee;
+    padding: 20px;
+}
+
+.App ol{
+    margin: auto;
+    width: 80%;
+}
+
+.App ol li{
+    text-transform: capitalize;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.App p{
+    text-align: center;
+}
+
+
+.WorkingArea{
+    width: 60%;
+    margin: auto;
+}
+
+.WorkingArea input{
+    width: 90%;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.WorkingArea p{
+    padding: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.6);
+    text-align: center;
+}

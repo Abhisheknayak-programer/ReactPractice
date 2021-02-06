@@ -1,0 +1,23 @@
+.MainDiv{
+    text-align: center;
+}
+
+input{
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    margin: auto;
+    color: red;
+    transition: all 0.3s ease;
+    background-color: #000;
+}
+
+input::placeholder{
+    text-transform: capitalize;
+}
+
+input:hover{
+    text-transform: capitalize;
+    color: aliceblue;
+    font-size: 20px;
+}

@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.TaskGiven{
+    background-color: #eee;
+    padding: 20px;
+}
+
+.TaskGiven p{
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 100;
+}
