@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ 
+body{
+    /* background: #eee; */
+    background: navajowhite;
+}
+
+.centerText{
+    text-align: center;
+}
+
+
+.colorText{
+    color: salmon;
+}
+
+.spaces{
+    padding: 30px;
+}
+
+.formDesign{
+    width: 30%;
+    margin: auto;
+}
+
+.formDesign form div{
+    margin-top: 15px;
+}
+
+.formDesign form label{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.formDesign form input{
+    width: 100%;
+    padding: 5px;
+    text-transform: capitalize;
+    transition: all 0.7s ease;
+    outline: none;
+}
+
+.formDesign form input:hover{
+    background: rgb(5, 37, 48);
+    color: white;
+}
+
+.formDesign form button{
+    padding: 5px;
+    background: rgb(187, 29, 113);
+    color: white;
+    cursor: pointer;
+}
+
+.lastShower{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: black;
+    color: white;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    font-weight: 600;
+    font-size: 20px;
+}
