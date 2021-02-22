@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.textcenter{
+    text-align: center;
+}   
+
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.spaces{
+    padding: 10px 0px;
+}
+
+.mybtn{
+    padding: 5px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    outline: none;
+    color: #fff;
+    background-color: black;
+    cursor: pointer;
+}
+
+.mybtn:hover{
+    color: yellow;
+}
+
+.boxdesign{
+    border: 1px solid #eee;
+    width: 30%;
+    margin: 30px auto;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,1);
+    text-align: center;
+}
